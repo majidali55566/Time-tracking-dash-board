@@ -128,7 +128,7 @@ button {
 .profile-pic-name {
   gap: 1rem;
   padding: var(--padding);
-  background-color: var(--clr-neutral-700);
+  background-color: var(--clr-primary);
   border-radius: var(--border-radius);
 }
 @media (min-width: 1024px) {
@@ -261,6 +261,6 @@ button {
 
 @media (min-width: 1024px) {
   .report-details h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
