@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fav icon -->
+    <link rel="icon" href="/images/favicon-32x32.png" type="image/icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Time tracking dash board</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dash-board-profile grid-flow">
+        <div class="flex-group profile-pic-name">
+          <img
+            class="profile-picture"
+            src="/images/image-jeremy.png"
+            alt="user profile"
+            width="64"
+            height="64"
+          />
+
+          <div class="profile-name grid-flow">
+            <p>Report for</p>
+            <p class="person-name">Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="flex-group report-time-selection">
+          <button id="daily-button" class="button">Daily</button>
+          <button id="weekly-button">Weekly</button>
+          <button id="monthly-button">Monthly</button>
+        </div>
+      </div>
+      <div class="report-container grid-flow">
+        <article class="specific-report light-red-work">
+          <div class="report-details">
+            <div class="flex-between-center">
+              <p class="report-title">Work</p>
+              <img src="/images/icon-ellipsis.svg" alt="" height="6" />
+            </div>
+            <div class="current-and-previous">
+              <h1 class="current-hour">32hrs</h1>
+              <p class="last-time-hour">last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+        <article class="specific-report soft-blue-play">
+          <div class="report-details">
+            <div class="flex-between-center">
+              <p class="report-title">Work</p>
+              <img src="/images/icon-ellipsis.svg" alt="" height="6" />
+            </div>
+            <div class="current-and-previous">
+              <h1 class="current-hour">32hrs</h1>
+              <p class="last-time-hour">last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+        <article class="specific-report light-red-study">
+          <div class="report-details">
+            <div class="flex-between-center">
+              <p class="report-title">Work</p>
+              <img src="/images/icon-ellipsis.svg" alt="" height="6" />
+            </div>
+            <div class="current-and-previous">
+              <h1 class="current-hour">32hrs</h1>
+              <p class="last-time-hour">last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+        <article class="specific-report lime-green-exercise">
+          <div class="report-details">
+            <div class="flex-between-center">
+              <p class="report-title">Work</p>
+              <img src="/images/icon-ellipsis.svg" alt="" height="6" />
+            </div>
+            <div class="current-and-previous">
+              <h1 class="current-hour">32hrs</h1>
+              <p class="last-time-hour">last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+        <article class="specific-report voilet-social">
+          <div class="report-details">
+            <div class="flex-between-center">
+              <p class="report-title">Work</p>
+              <img src="/images/icon-ellipsis.svg" alt="" height="6" />
+            </div>
+            <div class="current-and-previous">
+              <h1 class="current-hour">32hrs</h1>
+              <p class="last-time-hour">last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+        <article class="specific-report soft-orange-self-care">
+          <div class="report-details">
+            <div class="flex-between-center">
+              <p class="report-title">Work</p>
+              <img src="/images/icon-ellipsis.svg" alt="" height="6" />
+            </div>
+            <div class="current-and-previous">
+              <h1 class="current-hour">32hrs</h1>
+              <p class="last-time-hour">last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
